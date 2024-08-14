@@ -12,9 +12,9 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="mb-3 col-3">
-                <label for="Producto1" class="form-label">Producto 1:</label>
-                <input type="number" class="form-control" id="Producto1" name="producto1" placeholder="ingrese el valor del producto...">
+            <div class="mb-3">
+                <label for="producto1" class="form-label">Producto 1:</label>
+                <input type="number" class="form-control" id="producto1" name="producto1" placeholder="ingrese el valor del producto...">
             </div>
 
             <div class="mb-3">
@@ -49,12 +49,12 @@
         </div>
         <div class="row">
             <div class="mb-3 col-6">
-                <label for="discount" id="descuento" class="form-label">Descuento 0%</label>
+                <label for="descuento" id="mostrarDescuento" class="form-label">Descuento 0%</label>
             </div>
         </div>
         <div class="row">
             <div class="mb-3 col-3">
-                <button type="button" onclick="calcularNotaFinal()" class="btn btn-primary">Calcular</button>
+                <button type="button" onclick="calcularDescuento()" class="btn btn-primary">Calcular</button>
                 <button type="button" onclick="limpiar()" class="btn btn-danger">Limpiar</button>
             </div>
         </div>
